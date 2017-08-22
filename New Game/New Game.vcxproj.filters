@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{c39df696-1ec6-4a32-a535-446a4b8252df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\header">
+      <UniqueIdentifier>{694100ad-e935-4112-b036-cec07cd7a95a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="animatedsprite.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="collider.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="raycast.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="door.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="slash.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="legs.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="slime.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="bouncepad.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangle.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="animatedsprite.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="raycast.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="collider.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="room.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="door.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="digger.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="corridor.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="FPS.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="slash.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="legs.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="slime.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="rotationrect.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="bouncepad.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="background.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
